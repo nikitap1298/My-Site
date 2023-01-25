@@ -1,0 +1,11 @@
+body {
+  margin: 5px;
+  background-color: #b1cd90;
+}
+
+/* App */
+.app-jsx {
+  background-color: #fff8eb;
+  height: 100vh;
+  border-radius: 5px;
+}
