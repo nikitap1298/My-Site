@@ -1,0 +1,52 @@
+.introduction-div {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.introduction-text-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.introduction-links-div {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.h1-introduction {
+    margin: 0;
+    color: #161A1D;
+    font-family: 'Nunito', serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.p-introduction {
+    margin: 0;
+    color: #161A1D;
+    font-family: 'Nunito', serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.introduction-link {
+    margin-right: 25px;
+    text-decoration: none;
+    color: #495057;
+    font-family: 'Nunito', serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.introduction-link:hover {
+    color: #b1cd90;
+}
+
+.introduction-photo {
+    border-radius: 50%;
+    border-style: dotted; 
+    border-color: #b1cd90;
+    border-width: 6px;
+}
