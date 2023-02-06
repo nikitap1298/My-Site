@@ -4,11 +4,13 @@ import myPhoto from "../images/my_photo.png"
 function Introduction() {
   return (
     <div className="introduction-div">
-      <div className="introduction-text-div">
-        <h1 className="h1-introduction">Hello I'm Nikita</h1>
-        <p className="p-introduction">
-          I'm a software developer and photographer in Germany
-        </p>
+      <div className="introduction-text-and-links-div">
+        <div className="introduction-text-div">
+          <h1 className="h1-introduction">Hello I'm Nikita</h1>
+          <p className="p-introduction">
+            I'm a software developer and photographer in Germany
+          </p>
+        </div>
         <div className="introduction-links-div">
           <a
             className="introduction-link"
@@ -30,7 +32,11 @@ function Introduction() {
           </a>
         </div>
       </div>
-      <img className="introduction-photo" src={myPhoto} alt="myPicture" height="400px" />
+      <img
+        className="introduction-photo"
+        src={myPhoto}
+        alt="myPicture"
+      />
     </div>
   )
 }
