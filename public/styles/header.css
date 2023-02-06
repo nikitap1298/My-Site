@@ -16,15 +16,22 @@
   font-size: 24px;
 
   /* Animation */
-  display: inline-block;
+  position: relative;
+}
+
+.header-a::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color: #b1cd90;
   transition: all 0.3s ease;
 }
 
-.header-a:hover {
-  color: #b1cd90;
-
-  /* Animation */
-  transform: scale(1.2);
+.header-a:hover:before {
+  width: 100%;
 }
 
 .brandPic {
