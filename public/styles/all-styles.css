@@ -8,4 +8,6 @@ body {
   background-color: #fff8eb;
   height: 100vh;
   border-radius: 5px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
