@@ -32,11 +32,7 @@ function Introduction() {
           </a>
         </div>
       </div>
-      <img
-        className="introduction-photo"
-        src={myPhoto}
-        alt="myPicture"
-      />
+      <img className="introduction-photo" src={myPhoto} alt="myPicture" />
     </div>
   )
 }
