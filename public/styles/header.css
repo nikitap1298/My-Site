@@ -1,25 +1,32 @@
 .header-div {
-    margin-left: 180px;
-    margin-right: 180px;
-    padding-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-  
-  .header-a {
-    margin-left: 80px;
-    color: #495057;
-    text-decoration: none;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-  }
-  
-  .header-a:hover {
-    color: #b1cd90;
-  }
-  
-  .brandPic {
-    height: 60px;
-  }
+  margin-left: 180px;
+  margin-right: 180px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.header-a {
+  margin-left: 80px;
+  color: #495057;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+
+  /* Animation */
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.header-a:hover {
+  color: #b1cd90;
+
+  /* Animation */
+  transform: scale(1.2);
+}
+
+.brandPic {
+  height: 60px;
+}
