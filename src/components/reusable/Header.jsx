@@ -10,18 +10,18 @@ function Header() {
           <img class="brandPic" src={brandPic} alt="Brand-Pic" />
         </Link>
         <div>
-          <Link className="header-a" to="/about">
+          <Link className="header-link" to="/about">
             About
           </Link>
-          <a className="header-a" href="https://www.apple.com">
+          <Link className="header-link" to="/projects">
             Projects
-          </a>
-          <a className="header-a" href="https://www.apple.com">
+          </Link>
+          <Link className="header-link" to="/photos">
             Photos
-          </a>
-          <a className="header-a" href="https://www.apple.com">
-            Contact
-          </a>
+          </Link>
+          <Link className="header-link" to="/contacts">
+            Contacts
+          </Link>
         </div>
       </div>
     </header>
