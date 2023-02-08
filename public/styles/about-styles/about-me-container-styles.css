@@ -1,0 +1,19 @@
+.about-me-container {
+  /* height: 85vh; */
+  width: 90%;
+  margin-top: 80px;
+}
+
+.about-me-h1 {
+  color: #161a1d;
+  font-family: "Nunito", serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.about-me-p {
+  color: #495057;
+  font-family: "Nunito", serif;
+  font-weight: 500;
+  font-size: 20px;
+}
