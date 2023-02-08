@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import brandPic from "../images/brand.png"
+import brandPic from "../../images/brand.png"
 
 function Header() {
   return (
