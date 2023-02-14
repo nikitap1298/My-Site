@@ -8,6 +8,7 @@ function GetInTouch() {
         <p className="get-in-touch-p">Have a work for me or would like to say something?</p>
         <a className="get-in-touch-a" href="mailto:nikpishchugin@gmail.com">Say Hey ✌️</a>
       </div>
+      <div className="empty-container"></div>
     </div>
   )
 }

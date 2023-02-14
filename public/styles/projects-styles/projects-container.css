@@ -1,0 +1,39 @@
+.projects-container {
+  width: 90%;
+  margin-top: 80px;
+}
+
+.h1-projects-container {
+  color: #161a1d;
+  font-family: "Nunito", serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.h2-projects-container {
+  color: #495057;
+  font-family: "Nunito", serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.p-projects-container {
+  color: #495057;
+  font-family: "Nunito", serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.projects-photos-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.img-projects-container {
+  height: 400px;
+}
+
+.empty-container {
+  height: 100px;
+}

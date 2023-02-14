@@ -12,3 +12,7 @@ body {
   padding-right: 100px;
   position: relative;
 }
+
+.empty-container {
+  height: 100px;
+}
