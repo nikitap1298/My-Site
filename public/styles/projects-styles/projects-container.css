@@ -1,6 +1,7 @@
 .projects-container {
   width: 90%;
   margin-top: 80px;
+  margin-left: 100px;
 }
 
 .h1-projects-container {
@@ -27,13 +28,9 @@
 .projects-photos-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
+  justify-items: start;
 }
 
 .img-projects-container {
   height: 400px;
-}
-
-.empty-container {
-  height: 100px;
 }
