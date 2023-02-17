@@ -6,7 +6,7 @@ import Projects from "./projects/Projects"
 import Photos from "./photos/Photos"
 import Contacts from "./contacts/Contacts"
 
-function App() {
+const App = () => {
   return (
     <div>
       <Routes>

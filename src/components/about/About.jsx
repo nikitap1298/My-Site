@@ -3,7 +3,7 @@ import Header from "../reusable/Header"
 import AboutMeContainer from "./AboutMeContainer"
 import Footer from "../reusable/Footer"
 
-function About() {
+const About = () => {
   return (
     <div className="app-jsx" style={{height: "100vh"}}>
       <Header />

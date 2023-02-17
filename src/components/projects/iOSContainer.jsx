@@ -9,7 +9,7 @@ import focus1 from "../../images/focus/1.png"
 import focus2 from "../../images/focus/2.png"
 import focus3 from "../../images/focus/3.png"
 
-function IOSContainer() {
+const IOSContainer = () => {
   return (
     <div>
       <h1 className="h1-projects-container">iOS Projects</h1>
@@ -24,12 +24,12 @@ function IOSContainer() {
         to.
       </p>
       <div className="projects-photos-container">
-        <img class="img-projects-container" src={sunny1} alt="Sunny1" />
-        <img class="img-projects-container" src={sunny2} alt="Sunny2" />
-        <img class="img-projects-container" src={sunny3} alt="Sunny3" />
-        <img class="img-projects-container" src={sunny4} alt="Sunny4" />
-        <img class="img-projects-container" src={sunny5} alt="Sunny5" />
-        <img class="img-projects-container" src={sunny6} alt="Sunny6" />
+        <img className="img-projects-container" src={sunny1} alt="Sunny1" />
+        <img className="img-projects-container" src={sunny2} alt="Sunny2" />
+        <img className="img-projects-container" src={sunny3} alt="Sunny3" />
+        <img className="img-projects-container" src={sunny4} alt="Sunny4" />
+        <img className="img-projects-container" src={sunny5} alt="Sunny5" />
+        <img className="img-projects-container" src={sunny6} alt="Sunny6" />
       </div>
       <h2 className="h2-projects-container">Focus: Meditation & Work</h2>
       <p className="p-projects-container">
@@ -41,9 +41,9 @@ function IOSContainer() {
         timer or quit the application, otherwise the task is fails.
       </p>
       <div className="projects-photos-container">
-        <img class="img-projects-container" src={focus1} alt="Focus1" />
-        <img class="img-projects-container" src={focus2} alt="Focus2" />
-        <img class="img-projects-container" src={focus3} alt="Focus3" />
+        <img className="img-projects-container" src={focus1} alt="Focus1" />
+        <img className="img-projects-container" src={focus2} alt="Focus2" />
+        <img className="img-projects-container" src={focus3} alt="Focus3" />
       </div>
     </div>
   )

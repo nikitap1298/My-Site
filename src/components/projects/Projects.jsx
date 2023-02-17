@@ -3,7 +3,7 @@ import Header from "../reusable/Header"
 import IOSContainer from "./iOSContainer"
 import Footer from "../reusable/Footer"
 
-function Projects() {
+const Projects = () => {
   return (
     <div className="app-jsx">
       <Header />
