@@ -1,7 +1,7 @@
 import React from "react"
 import myPhoto from "../../images/my_photo.png"
 
-function Introduction() {
+const Introduction = () => {
   return (
     <div className="introduction-div">
       <div className="introduction-text-and-links-div">

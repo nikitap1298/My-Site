@@ -1,6 +1,6 @@
 import React from "react"
 
-function GetInTouch() {
+const GetInTouch= () => {
   return (
     <div className="get-in-tounch-div">
       <h1 className="get-in-touch-h1" >Get In Touch</h1>

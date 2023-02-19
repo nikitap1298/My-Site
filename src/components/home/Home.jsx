@@ -4,7 +4,7 @@ import Introduction from "./Introduction"
 import GetInTouch from "./Get-in-touch"
 import Footer from "../reusable/Footer"
 
-function Home() {
+const Home = () => {
   return (
     <div className="app-jsx">
       <Header />
